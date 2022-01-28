@@ -1,5 +1,5 @@
 # curso-lima-senai
-Repositorio para armazenagem dos projetos criados no curso Tecnico de Desenvolvilmento de Sistemas do SENAI
+Repositorio para armazenagem dos projetos criados no curso Tecnico de Desenvolvimento de Sistemas do SENAI
 Sites para referencia https://www.w3schools.com/html/default.asp e https://developer.mozilla.org/pt-BR/
 
 Atalhos
