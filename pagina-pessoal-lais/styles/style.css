@@ -1,0 +1,198 @@
+@import url(//db.onlinewebfonts.com/c/5cfbe76f00e7c4d6ba5d963f6c179606?family=MuseoW01-700);
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'MuseoW01-700';
+    align-items: center;
+}
+
+
+header ul {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    background-color: #461780;
+    padding: 1%;
+    z-index: 1;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    margin-right: 50px;
+}
+
+header a:hover {
+    color: rgb(105, 173, 218);
+}
+
+#logo {
+    margin-right: 500px;
+}
+
+
+#efeito {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#efeito img {
+    width: 100%;
+    opacity: 0.6;
+}
+
+
+#banner {
+    position: absolute;
+    color: azure;
+    top: 300px;
+    left: 500px;
+    font-size: 65px;
+    text-align: center;
+    /* text-shadow: 2px 2px 5px #461780; */
+}
+
+#banner h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes pisca {
+    0% {color: rgb(166, 201, 224);}
+    50% {color: #461780}
+    100% {color: rgb(166, 201, 224);}
+}
+
+.animacao {
+    animation-name: pisca;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to bottom, rgb(161, 78, 230), white);
+    color: rgb(41, 5, 71);
+}
+
+
+#sobremim,#academico,#profissional {
+    margin: 0px 300px 0px 300px;
+    opacity: 0.65;
+}
+
+#sobremim div,#academico div,#profissional div {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 200px 0px 200px;
+}
+
+#sobremim h1,#academico h1,#profissional h1 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 80px;
+}
+
+#sobremim img{
+    width: 300px;
+    opacity: 0.5;
+    border-radius: 50%;
+    transition: width 1s
+}
+
+#sobremim img:hover {
+    width: 450px;
+  }
+
+#academico img,#profissional img {
+    width: 50%;
+    /* box-shadow: 2px 10px 20px black; */
+}
+
+#periodo {
+    font-size: 25px;
+    text-align: left;
+}
+
+#curso,#empresa {
+    font-size: 48px;
+    text-align: left;
+
+}
+
+#instituicao,#cargo {
+    font-size: 17px;
+    text-align: left;
+}
+
+
+#texto {
+    /* width: 20%; */
+    text-align: left;
+    font-size: 14px;
+    /* font-weight: 600; */
+    margin-right: 70px;
+    font-family: 'AvenirLT-35Light';
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+.margin {
+    margin-left: 50px;
+}
+
+#formulario {
+    padding: 5%;
+    background-color: #461780;
+    margin: 200px 0 0 0;
+    text-align: center;
+    color: white;
+}
+
+#formulario h1 {
+    font-size: 48px;
+}
+
+
+input,textarea {
+    width: 30%;
+    padding: 5px 0 5px 0;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: #461780;
+    color: white;
+}
+
+#enviar {
+    width: 10%;
+    padding: 5px 10px 5px 5px;
+    margin: 8px 0;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #461780;
+}
+
+.linha a {
+    margin-right: 10px;
+}
+
+footer {
+    padding: 2%;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'AvenirLT-35Light';
+}
